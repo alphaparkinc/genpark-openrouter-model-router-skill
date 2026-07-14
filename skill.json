@@ -1,0 +1,26 @@
+{
+  "name": "genpark-openrouter-model-router-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - OpenRouter model router based on task complexity.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "openrouter",
+    "router"
+  ],
+  "inputs": {
+    "task_complexity": {
+      "type": "string"
+    },
+    "max_cost_limit": {
+      "type": "number"
+    }
+  },
+  "outputs": {
+    "selected_model": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
